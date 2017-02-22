@@ -16,9 +16,9 @@ This is the hardware part.
 What we need is a device that sends back what it receives. It was easy because the serial interface is so old and, in this case, old means simple.
 To create this device we need:
 
-    1. Serial connector. It can be a male or female, 9 or 25 pins. Adapt it to your requirements
-    2. An welding soldering iron
-    3. Some wire for soldering
+1. Serial connector. It can be a male or female, 9 or 25 pins. Adapt it to your requirements
+2. An welding soldering iron
+3. Some wire for soldering
 
 
 ![DB-9 Diagram](doc/db9-diagram.png)
