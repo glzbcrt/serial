@@ -8,7 +8,7 @@ and to find the correct serial port was painful. People usually selected the inc
 We already tried to detect where the device is by sending some bytes and checking the return value, but as we do not know what each device might return it doesn't work sometimes.
 So the solution was a physical one, disconnect the device we want to detect the serial port, plug our serial loopback and let our software detect our device instead of the original one.
 
-If you have a problem like this follow this simple three steps.
+If you have a problem like this try this solution in three simple steps.
 
 ## Step 1 - Create the serial loopback device
 This is the hardware part.
@@ -20,6 +20,7 @@ To create this device we need:
 2. An welding soldering iron
 3. Some wire for soldering
 
+Below you can see a diagram of the pins that must be welded.
 
 ![DB-9 Diagram](doc/db9-diagram.png)
 
@@ -39,7 +40,7 @@ I wrote a sample application in Go. You can find the source code in this reposit
 ## Step 3 - Run the solution
 Now the final part.
 
-Connect your serial loopback device in the serial port we want to detect and run your program.
+Connect your serial loopback device in the serial port you want to detect and run the sample program.
 You should see the following output: 
 
 ```
