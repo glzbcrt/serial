@@ -1,4 +1,4 @@
-# Serial Loopback Detector &middot; [![Serial license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/glzbcrt/seria/blob/master/LICENSE)
+# Serial Loopback Detector &middot; [![Serial license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/glzbcrt/serial/blob/master/LICENSE)
 
 
 This is a simple hardware and software solution I created to detect where a serial device is connected. 
